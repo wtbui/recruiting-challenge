@@ -9,7 +9,9 @@ Tasks:
 3. API Endpoint: Create an endpoint that receives an image, processes it to extract facial features, and saves a "profile" of these features.
 4. Create a use case showing how this "facial profile" could be used to identify a separate image as real.
 
-## How to run application
+## Getting Started
 ### 1. Clone this repo. <br/>
-```git clone https://github.com/wtbui/recruiting-challenge.git```
+```
+git clone https://github.com/wtbui/recruiting-challenge.git
+```
 
