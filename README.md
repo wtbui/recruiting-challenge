@@ -10,6 +10,6 @@ Tasks:
 4. Create a use case showing how this "facial profile" could be used to identify a separate image as real.
 
 ## How to run application
-###1. Clone this repo
+### 1. Clone this repo. <br/>
 ```git clone https://github.com/wtbui/recruiting-challenge.git```
 
