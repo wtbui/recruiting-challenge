@@ -100,3 +100,6 @@ iii. The current iteration uses the parameters specified in `utils/analysis_para
 i. Using each module's separate confidence score, an aggregate overall confidence level can be calculated using a weighted sum.
 
 ii. The weights currently favor the landmark module, which shows the highest chance of predicting a real image, but these can be tuned within `utils/analysis_params.py`.
+
+### Closing Remarks
+In its current form, the api does not have database integration which is limiting, and can only currently analyze images with a singlular face. In future iterations, changes could be made to improve these areas.
