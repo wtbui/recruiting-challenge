@@ -14,14 +14,20 @@ Tasks:
 ```
 git clone https://github.com/wtbui/recruiting-challenge.git
 ```
-### 2. Install dependencies <br/>
+### 2. Install dependencies. <br/>
 ```
 pip install -r requirements.txt
 ```
-### 3. Run FastAPI server <br/>
+### 3. Run FastAPI server. Note: must run from project directory with app. before main:app<br/>
 ```
 uvicorn app.main:app --reload
 ```
 <br/>
-note: must run from project directory with app. 
+ <br/>
+### 4. Try out the api! Note: Data is not persistent among calls, will need database integration<br/>
+```
+http://localhost:8000/docs
+```
+
+
 
