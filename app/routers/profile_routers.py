@@ -1,3 +1,4 @@
+import random
 from fastapi import APIRouter, File, UploadFile, HTTPException
 from app.models import ProfileResponse, VerificationResponse
 from app.utils import generate_profile, compare_profiles
@@ -91,7 +92,7 @@ async def create_profile(file: UploadFile = File(...)):
     try:
         img = Image.open(BytesIO(await file.read()))
         profile = generate_profile(img)
-        profile_id = len(profile_db)
+        profile_id = random.randrange(10000) # Temporary measure, future iterations would use uuid generator
         profile_db[str(profile_id)] = profile
         return {"profile_id": str(profile_id)}
     except ValueError as e:
