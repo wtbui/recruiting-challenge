@@ -1,2 +1,12 @@
 fastapi
-pillow
+uvicorn
+dlib
+opencv-python
+numpy
+torch
+torchvision
+scikit-image
+scikit-learn
+pydantic
+Pillow
+facenet-pytorch
