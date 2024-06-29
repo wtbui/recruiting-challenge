@@ -67,7 +67,6 @@ async def profile_delete(profile_id: str):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-## POST ENDPOINT TO CREATE PROFILE ##
 @router.post(
     "/profile/create", 
     response_model=dict[str,str],
@@ -100,7 +99,6 @@ async def create_profile(file: UploadFile = File(...)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-## POST ENDPOINT TO VERIFY PHOTO BASED ON PROFILE ##
 @router.post(
     "/profile/verify/{profile_id}",
     response_model=VerificationResponse,
