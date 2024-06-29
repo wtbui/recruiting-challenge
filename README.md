@@ -28,6 +28,11 @@ Note: Data is not persistent among calls, will need database integration <br/>
 ```
 http://localhost:8000/docs
 ```
+## Testing
+Tests are located within tests and can be run with: <br/>
+```
+python3 tests/test_all.py
+```
 
 
 
