@@ -71,7 +71,11 @@ The current iteration of this project includes four endpoints:
 - `/profile/verify`: To verify an existing profile with a new image
 
 ### 3. Facial Detection Logic
-The logic behind facial feature extraction and detection lies within three modules in the `utils` subdirectory. These modules generate their own similarity confidence values between different profiles, which can then be aggregated to generate an overall confidence level. **Note**: Photos are preprocessed for consistency among comparisons and calculations.
+The logic behind facial feature extraction and detection lies within three modules in the `utils` subdirectory. These modules generate their own similarity confidence values between different profiles, which can then be aggregated to generate an overall confidence level. 
+
+Each modules calculations make up the overall "Profile" of a face
+
+**Note**: Photos are preprocessed for consistency among comparisons and calculations.
 
 #### a) `landmark_analysis.py` - Landmark Module
 
