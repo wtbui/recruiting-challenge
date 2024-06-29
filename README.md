@@ -29,8 +29,21 @@ http://localhost:8000/docs
 
 ## Testing
 Tests are located within the `tests` directory and can be run with:
-```sh
+
+Running Tests:
+```
 python3 tests/test_all.py
+
+Testing create and get profile
+Testing retrieval non-existent profile
+Testing delete profile
+Testing deletion of non-existent profile
+Testing verification of different photos of same person
+Image is not deepfaked with confidence of 84.49363453276332
+Testing verification of deepfaked photo
+Image is deepfaked with confidence of 56.73082372275643
+Testing verification on non-existent profile
+All tests passed!
 ```
 
 ### Current Tests Include:
