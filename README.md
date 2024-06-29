@@ -24,7 +24,6 @@ Note: MUST run from project directory with app. before main:app<br/>
 uvicorn app.main:app --reload
 ```
 <br/>
- <br/>
 ### 4. Try out the api! 
 Note: Data is not persistent among calls, will need database integration <br/>
 ```
