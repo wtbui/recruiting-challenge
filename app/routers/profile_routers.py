@@ -92,7 +92,7 @@ async def create_profile(file: UploadFile = File(...)):
         img = Image.open(BytesIO(await file.read()))
         profile = generate_profile(img)
         profile_id = len(profile_db)
-        profile_db[str(len(profile_db))] = profile
+        profile_db[str(profile_id)] = profile
         return {"profile_id": str(profile_id)}
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
