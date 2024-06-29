@@ -19,14 +19,14 @@ git clone https://github.com/wtbui/recruiting-challenge.git
 pip install -r requirements.txt
 ```
 ### 3. Run FastAPI server. 
-Note: must run from project directory with app. before main:app<br/>
+Note: MUST run from project directory with app. before main:app<br/>
 ```
 uvicorn app.main:app --reload
 ```
 <br/>
  <br/>
 ### 4. Try out the api! 
-Note: Data is not persistent among calls, will need database integration<br/>
+Note: Data is not persistent among calls, will need database integration <br/>
 ```
 http://localhost:8000/docs
 ```
