@@ -9,10 +9,3 @@ Tasks:
 3. API Endpoint: Create an endpoint that receives an image, processes it to extract facial features, and saves a "profile" of these features.
 4. Create a use case showing how this "facial profile" could be used to identify a separate image as real.
 
-
-
-
-```
-
-
-
